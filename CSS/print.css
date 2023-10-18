@@ -1,0 +1,18 @@
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    
+    nav * {
+        display: none;
+    }
+
+    .print_bill * {
+        visibility: visible;
+      
+    }
+
+    body, h1, h2, h3, h4, h5, h6  {
+        font-family: "Courier New", monospace;
+    }
+}
